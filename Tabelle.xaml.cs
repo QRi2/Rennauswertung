@@ -28,6 +28,7 @@ namespace Rennauswertung
             this.anzahlRunden = anzahlRunden;
             this.Title = "Rennauswertung " + ort + " " + datum;
             InitializeComponent();
+            createTable();
         }
 
         private void BtnExport_Click(object sender, RoutedEventArgs e)
@@ -43,6 +44,11 @@ namespace Rennauswertung
         private void BtnLinehinzufuegen_Click(object sender, RoutedEventArgs e)
         {
 
+        }
+
+        private void createTable()
+        {
+           
         }
     }
 }
