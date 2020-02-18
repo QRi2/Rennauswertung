@@ -14,3 +14,5 @@ C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Eckdaten.g.cs
 C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Eckdaten.baml
 C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Mainwindow.g.cs
 C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Mainwindow.baml
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Tabelle.g.cs
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Tabelle.baml

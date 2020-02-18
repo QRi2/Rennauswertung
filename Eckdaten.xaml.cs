@@ -15,12 +15,12 @@ using System.Windows.Shapes;
 namespace Rennauswertung
 {
     /// <summary>
-    /// Interaktionslogik für Eckdaten.xaml
+    /// Hier werden alle Daten rund um das Rennen gesammelt. 
+    /// (Anzahl Runden, Anzahl Lines sowie Vernstaltungsort) 
     /// </summary>
     public partial class Eckdaten : Window
     {
         private string ort = "";
-        private int teilnehmerAnzahl = 0;
         private int linesAnzahl = 0;
         private int rundenAnzahl = 0;
 
@@ -37,14 +37,13 @@ namespace Rennauswertung
         private void BtnOk_Click(object sender, RoutedEventArgs e)
         {
             if (!this.ort.Equals(String.Empty))
-            {
-                if (this.teilnehmerAnzahl > 0)
-                {
+            {               
                     if (this.rundenAnzahl > 0)
                     {
                         if (this.linesAnzahl > 0)
                         {
-                            MessageBox.Show("GOIL");
+                        new Tabelle(linesAnzahl, rundenAnzahl, ort, DateTime.Now.ToString("dd.MM.yyyy")).Show();
+                        this.Close();
                         }
                         else
                         {
@@ -56,13 +55,7 @@ namespace Rennauswertung
                     {
                         MessageBox.Show("Bitte geben Sie eine Rundenanzahl größer 0 ein!");
                         TbxRundenanzahl.Focus();
-                    }
-                }
-                else
-                {
-                    MessageBox.Show("Bitte geben Sie eine Teilnehmeranzahl größer 0 ein!");
-                    TbxTeilnehmeranzahl.Focus();
-                }
+                    }                
             }
             else
             {
@@ -74,13 +67,7 @@ namespace Rennauswertung
         private void TbxOrt_LostFocus(object sender, RoutedEventArgs e)
         {
             this.ort = TbxOrt.Text;
-        }
-
-
-        private void TbxTeilnehmeranzahl_TextChanged(object sender, TextChangedEventArgs e)
-        {
-            this.teilnehmerAnzahl = konvertiereTextfeldZuAttribut(TbxTeilnehmeranzahl);
-        }
+        }       
 
         private void TbxLinesanzahl_TextChanged(object sender, TextChangedEventArgs e)
         {
