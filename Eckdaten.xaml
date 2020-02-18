@@ -1,0 +1,26 @@
+﻿<Window x:Class="Rennauswertung.Eckdaten"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Rennauswertung"
+        mc:Ignorable="d"
+        Title="Eckdaten" Height="286" Width="439">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="437*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Label x:Name="LblOrt" Content="Ort der Veranstaltung" HorizontalAlignment="Left" Margin="35,40,0,0" VerticalAlignment="Top" Height="26" Width="124"/>
+        <Label x:Name="LblTeilnehmer" Content="Anzahl der Teilnehmer" HorizontalAlignment="Left" Margin="35,79,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.492,2.5" Height="26" Width="128"/>
+        <Label x:Name="LblTeilnehmer_Copy" Content="Anzahl der Lines" HorizontalAlignment="Left" Margin="35,116,0,0" VerticalAlignment="Top" Height="26" Width="97"/>
+        <Label x:Name="LblTeilnehmer_Copy1" Content="Runden pro Line" HorizontalAlignment="Left" Margin="35,156,0,0" VerticalAlignment="Top" Height="26" Width="97"/>
+        <TextBox x:Name="TbxOrt" HorizontalAlignment="Left" Height="23" Margin="220,44,0,0" TextWrapping="Wrap" Text="&#xD;&#xA;" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="TbxTeilnehmeranzahl" HorizontalAlignment="Left" Height="23" Margin="220,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="TbxLinesanzahl" HorizontalAlignment="Left" Height="23" Margin="220,120,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <TextBox x:Name="TbxRundenanzahl" HorizontalAlignment="Left" Height="23" Margin="220,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <Button x:Name="BtnAbbrechen" Content="Abbrechen" HorizontalAlignment="Left" Margin="57,208,0,0" VerticalAlignment="Top" Width="75" Height="20" Click="BtnAbbrechen_Click"/>
+        <Button x:Name="BtnAbbrechen_Copy" Content="OK" HorizontalAlignment="Left" Margin="252,208,0,0" VerticalAlignment="Top" Width="75" Height="20"/>
+
+    </Grid>
+</Window>

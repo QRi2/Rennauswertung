@@ -1,0 +1,16 @@
+C:\Users\cglan\Source\Repos\Rennauswertung\bin\Debug\Rennauswertung.exe.config
+C:\Users\cglan\Source\Repos\Rennauswertung\bin\Debug\Rennauswertung.exe
+C:\Users\cglan\Source\Repos\Rennauswertung\bin\Debug\Rennauswertung.pdb
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung.csprojAssemblyReference.cache
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\App.g.cs
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung_MarkupCompile.cache
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung_MarkupCompile.lref
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung.g.resources
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung.Properties.Resources.resources
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung.csproj.GenerateResource.cache
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung.exe
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Rennauswertung.pdb
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Eckdaten.g.cs
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Eckdaten.baml
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Mainwindow.g.cs
+C:\Users\cglan\Source\Repos\Rennauswertung\obj\Debug\Mainwindow.baml

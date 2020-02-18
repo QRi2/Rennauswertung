@@ -5,8 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Rennauswertung"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Neu Laden" Height="141" Width="391">
     <Grid>
-        
+        <Label Content="Möchten Sie eine bestehende Rennauswertung laden?" HorizontalAlignment="Left" Margin="46,20,0,0" VerticalAlignment="Top"/>
+        <Button Content="Ja" HorizontalAlignment="Left" Margin="89,70,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <Button Content="Nein" HorizontalAlignment="Left" Margin="222,70,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+
     </Grid>
 </Window>

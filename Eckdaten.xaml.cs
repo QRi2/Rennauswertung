@@ -10,30 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace Rennauswertung
 {
     /// <summary>
-    /// Interaktionslogik für MainWindow.xaml
+    /// Interaktionslogik für Eckdaten.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Eckdaten : Window
     {
-        public MainWindow()
+        public Eckdaten()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnAbbrechen_Click(object sender, RoutedEventArgs e)
         {
-            //File Importer
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            new Eckdaten().Show();
-            this.Close();
+            Application.Current.Shutdown();
         }
     }
 }
